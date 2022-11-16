@@ -14,9 +14,10 @@ namespace Sentry.Framework.Utils
                 {
                     ChromeOptions options = new ChromeOptions();
                     options.AddArguments("incognito");
+                    options.AddArguments("--start-fullscreen");
                     driver = new ChromeDriver(Path.GetFullPath(@"../../../" + "Framework/Resources/drivers"), options);
                     driver.Url = "https://storefront.dev.cpcentral.com/order";
-                    driver.Manage().Window.FullScreen();
+                    //driver.Manage().Window.FullScreen();
                 } return driver;
             } }
     }

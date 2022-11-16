@@ -4,6 +4,7 @@ using OpenQA.Selenium;
 using Sentry.Framework.Utils;
 using Sentry.Framework.Steps;
 using Xunit;
+using Sentry.Framework.Steps.AdminPortal;
 
 namespace Sentry.Tests
 {
@@ -15,7 +16,8 @@ namespace Sentry.Tests
         OrderDetailsSteps orderDetailsSteps = new OrderDetailsSteps();
         TransactionDetailsSteps transactionSteps = new TransactionDetailsSteps();
         PaymentSteps paymentSteps = new PaymentSteps();
-        
+        AdminLoginSteps adminLoginSteps = new AdminLoginSteps();
+
         [Fact]
         public void Test1()
         {
@@ -24,6 +26,7 @@ namespace Sentry.Tests
             orderDetailsSteps.ChooseDocumentsAndDeliveryOption();
             transactionSteps.CompleteTransactionAndCompanyInformation();
             paymentSteps.OrderPayment();
+            adminLoginSteps.AdminPortalLogin();
         }
 
         
