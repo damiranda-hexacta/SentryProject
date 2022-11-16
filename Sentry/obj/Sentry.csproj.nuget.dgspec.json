@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hexacta/Projects/Sentry/Sentry/Sentry.csproj": {}
+    "/Users/hexacta/Desktop/SentryFinal/SentryProject/Sentry/Sentry.csproj": {}
   },
   "projects": {
-    "/Users/hexacta/Projects/Sentry/Sentry/Sentry.csproj": {
+    "/Users/hexacta/Desktop/SentryFinal/SentryProject/Sentry/Sentry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hexacta/Projects/Sentry/Sentry/Sentry.csproj",
+        "projectUniqueName": "/Users/hexacta/Desktop/SentryFinal/SentryProject/Sentry/Sentry.csproj",
         "projectName": "Sentry",
-        "projectPath": "/Users/hexacta/Projects/Sentry/Sentry/Sentry.csproj",
+        "projectPath": "/Users/hexacta/Desktop/SentryFinal/SentryProject/Sentry/Sentry.csproj",
         "packagesPath": "/Users/hexacta/.nuget/packages/",
-        "outputPath": "/Users/hexacta/Projects/Sentry/Sentry/obj/",
+        "outputPath": "/Users/hexacta/Desktop/SentryFinal/SentryProject/Sentry/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hexacta/.nuget/NuGet/NuGet.Config"

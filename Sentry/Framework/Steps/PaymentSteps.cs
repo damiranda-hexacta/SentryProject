@@ -12,12 +12,8 @@ namespace Sentry.Framework.Steps
         {
 			SentryWrite(paymentPage.addCouponInput, "sentry100");
 			SentryClickJS(paymentPage.addCouponButton);
-			Console.WriteLine(driver.FindElement(paymentPage.totalValueZeroValidation).Text);
-
-			SentryTextEqualAssert(paymentPage.totalValueZeroValidation, "0.0");
-			//SentryClickJS(paymentPage.submitButton);
-			SentryScreenshot();
-			//SentryTearDown();
+			SentryTextEqualAssert(paymentPage.totalValueZeroValidation, "$ 0.00");
+			SentryClickJS(paymentPage.submitButton);
         }
 	}
 }
